@@ -1,0 +1,38 @@
+# This file was created Mon Aug 22 12:39:43 2022
+# Created by:
+#                        :-) GROMACS - gmx bar, 2020 (-:
+# 
+# Executable:   /pool/dpetrov/GROMACS/gromacs-2020/build_my_comp/build/bin/gmx
+# Data prefix:  /pool/dpetrov/GROMACS/gromacs-2020/build_my_comp/build
+# Working dir:  /home/h89400_nadineg/Data_thesis/example_analysis
+# Command line:
+#   gmx bar -f ./FE_MD_0.000.xvg ./FE_MD_0.050.xvg ./FE_MD_0.100.xvg ./FE_MD_0.150.xvg ./FE_MD_0.200.xvg ./FE_MD_0.250.xvg ./FE_MD_0.300.xvg ./FE_MD_0.350.xvg ./FE_MD_0.400.xvg ./FE_MD_0.450.xvg ./FE_MD_0.500.xvg ./FE_MD_0.550.xvg ./FE_MD_0.600.xvg ./FE_MD_0.650.xvg ./FE_MD_0.700.xvg ./FE_MD_0.750.xvg ./FE_MD_0.800.xvg ./FE_MD_0.850.xvg ./FE_MD_0.900.xvg ./FE_MD_0.950.xvg ./FE_MD_1.000.xvg -o -oi
+# gmx bar is part of G R O M A C S:
+#
+# GRowing Old MAkes el Chrono Sweat
+#
+@    title "Free energy integral"
+@    xaxis  label "\xl\f{}"
+@    yaxis  label "\xD\f{}G (kT)"
+@TYPE xy
+     0  0.00
+     4 -5.16
+     8 -10.80
+    12 -17.34
+    16 -22.56
+    20 -25.03
+    24 -25.23
+    28 -23.18
+    32 -19.16
+    36 -13.25
+    40 -5.72
+    44  3.08
+    48 12.93
+    52 23.85
+    56 36.12
+    60 49.60
+    64 63.87
+    68 77.73
+    72 89.87
+    76 99.48
+    80 103.85

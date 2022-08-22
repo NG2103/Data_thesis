@@ -1,0 +1,37 @@
+# This file was created Mon Aug 22 12:39:43 2022
+# Created by:
+#                        :-) GROMACS - gmx bar, 2020 (-:
+# 
+# Executable:   /pool/dpetrov/GROMACS/gromacs-2020/build_my_comp/build/bin/gmx
+# Data prefix:  /pool/dpetrov/GROMACS/gromacs-2020/build_my_comp/build
+# Working dir:  /home/h89400_nadineg/Data_thesis/example_analysis
+# Command line:
+#   gmx bar -f ./FE_MD_0.000.xvg ./FE_MD_0.050.xvg ./FE_MD_0.100.xvg ./FE_MD_0.150.xvg ./FE_MD_0.200.xvg ./FE_MD_0.250.xvg ./FE_MD_0.300.xvg ./FE_MD_0.350.xvg ./FE_MD_0.400.xvg ./FE_MD_0.450.xvg ./FE_MD_0.500.xvg ./FE_MD_0.550.xvg ./FE_MD_0.600.xvg ./FE_MD_0.650.xvg ./FE_MD_0.700.xvg ./FE_MD_0.750.xvg ./FE_MD_0.800.xvg ./FE_MD_0.850.xvg ./FE_MD_0.900.xvg ./FE_MD_0.950.xvg ./FE_MD_1.000.xvg -o -oi
+# gmx bar is part of G R O M A C S:
+#
+# GRoups of Organic Molecules in ACtion for Science
+#
+@    title "Free energy differences"
+@    xaxis  label "\xl\f{}"
+@    yaxis  label "\xD\f{}G (kT)"
+@TYPE xydy
+ 2.000 -5.16  0.11
+ 6.000 -5.64  0.17
+10.000 -6.54  0.14
+14.000 -5.22  0.02
+18.000 -2.47  0.04
+22.000 -0.20  0.07
+26.000  2.05  0.11
+30.000  4.02  0.25
+34.000  5.91  0.29
+38.000  7.53  0.22
+42.000  8.79  0.25
+46.000  9.85  0.27
+50.000 10.92  0.26
+54.000 12.26  0.28
+58.000 13.48  0.22
+62.000 14.27  0.13
+66.000 13.86  0.17
+70.000 12.15  0.41
+74.000  9.61  0.47
+78.000  4.37  0.40
