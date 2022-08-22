@@ -7,12 +7,13 @@ import numpy as np
 import subprocess
 import argparse
 
-
+#Read in trajectories from the simulations:
 def read_data(fd):
     for i in np.arange(0,1.05,0.05):
         data = read_xvg_data(fd + '/FE_MD_{i:.3f}.xvg'.format(i=i))
         return check_data(data)
 
+#Check of the completness of the individual simulations:
 def check_data(data):
     for xvg_file in data:
         if data[0][0] == 0.000 and data[-1][0] == 5000.00:
@@ -22,7 +23,8 @@ def check_data(data):
         else:
             print('Missing xvg files')
             return
-        
+
+#BAR analysis and storage of the output in a txt-file:
 def FE_ana():
     parent_dir = fd
     path = os.path.join(parent_dir)
